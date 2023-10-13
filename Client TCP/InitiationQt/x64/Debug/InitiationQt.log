@@ -1,0 +1,5 @@
+﻿  moc InitiationQt.h
+  InitiationQt.cpp
+  main.cpp
+  moc_InitiationQt.cpp
+  InitiationQt.vcxproj -> C:\Users\lacaa\source\repos\InitiationQt\x64\Debug\InitiationQt.exe
