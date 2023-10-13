@@ -5,7 +5,8 @@
 #include <qstring.h>
 #include <QDebug>
 #include <math.h>
-#include <stdio.h>;
+#include <stdio.h>
+#include <string.h>
 
 class server : public QObject
 {

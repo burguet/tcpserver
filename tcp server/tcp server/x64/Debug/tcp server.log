@@ -1,3 +1,5 @@
-﻿  server.cpp
-C:\Users\xavie\source\repos\tcp server\tcp server\server.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+﻿  moc server.h
+  main.cpp
+  server.cpp
+  moc_server.cpp
   tcp server.vcxproj -> C:\Users\xavie\source\repos\tcp server\x64\Debug\tcp server.exe
