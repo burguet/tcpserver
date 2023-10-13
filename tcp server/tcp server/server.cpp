@@ -32,7 +32,7 @@ void server::onClientReadyRead()
     float rval = (float)val / (float)100;
     char c[2];
     strcpy(c, "");
-
+    if (str.endsWith("?")){
     if (str.startsWith("Td"))
     {
         qDebug() << "Temperature demandee en degres celsius";
@@ -83,7 +83,7 @@ void server::onClientReadyRead()
         socket->write(reponse.toUtf8());
     }
 }
-
+}
 
 
 void server::onServerNewConnection() {
