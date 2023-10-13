@@ -2,6 +2,11 @@
 #include <qtcpserver.h>
 #include <qobject.h>
 #include <qtcpsocket.h>
+#include <qstring.h>
+#include <QDebug>
+#include <math.h>
+#include <stdio.h>;
+
 class server : public QObject
 {
 	Q_OBJECT
