@@ -85,6 +85,10 @@ void server::onClientReadyRead()
 			}
 		}
 	}
+	else {
+		socket->close();
+	}
+	
 }
 
 void server::onServerNewConnection() {
