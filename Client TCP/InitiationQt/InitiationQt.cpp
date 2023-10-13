@@ -56,7 +56,7 @@ void InitiationQt::onClientDisconnected(){
 void InitiationQt::onSendButtonCelciusClicked() {
 	if (socket->state() == QTcpSocket::ConnectedState) {
 		QString message = ui.plainTextEditCFH->toPlainText();
-		QString val = "Tc" + message;
+		QString val = "Td" + message;
 		QByteArray msg = val.toUtf8();
 		socket->write(msg);
 	}
@@ -74,7 +74,7 @@ void InitiationQt::onSendButtonFahrenheitClicked() {
 void InitiationQt::onSendButtonHigrometrieClicked() {
 	if (socket->state() == QTcpSocket::ConnectedState) {
 		QString message = ui.plainTextEditCFH->toPlainText();
-		QString val = "Th" + message;
+		QString val = "Hr" + message;
 		QByteArray msg = val.toUtf8();
 		socket->write(msg);
 	}
